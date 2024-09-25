@@ -1,0 +1,30 @@
+uuid: 0624f147-617f-4343-9b1c-e8715d91f782
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.test_jar.field_test_jar_field
+    - node.type.test_jar
+  module:
+    - jsonapi_reference
+    - user
+id: node.test_jar.default
+targetEntityType: node
+bundle: test_jar
+mode: default
+content:
+  field_test_jar_field:
+    type: typed_resource_object_string
+    label: above
+    settings:
+      display_style: label
+      attribute: title
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

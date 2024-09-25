@@ -1,0 +1,21 @@
+uuid: 75f30da1-2c90-43e9-a7f9-6bbff85c2aa9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_test_jar_field
+    - node.type.test_jar
+  module:
+    - jsonapi_reference
+id: node.test_jar.field_test_jar_field
+field_name: field_test_jar_field
+entity_type: node
+bundle: test_jar
+label: 'Test JAR Field'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: typed_resource_object

@@ -1,0 +1,11 @@
+{
+    "name": "drupal_recipe/test_jar",
+    "description": "Recipe for setting up JSON:API Reference for testing",
+    "type": "drupal-recipe",
+    "require": {
+        "drupal/core": "^10.3 || ^11.0",
+        "drupal/jsonapi_reference": "^2.0",
+        "drupal/devel": "^5"
+    },
+    "license": "GPL-2.0-or-later"
+}

@@ -1,0 +1,17 @@
+uuid: 34c6fbb7-9247-4e69-b96d-76e35f5fe4e3
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Test JAR'
+type: test_jar
+description: 'Content type for testing JSON:API Reference'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: false

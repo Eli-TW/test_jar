@@ -1,0 +1,21 @@
+uuid: f862deb4-b9de-4e38-85cc-7d1f9d4baf6d
+langcode: en
+status: true
+dependencies:
+  module:
+    - jsonapi_reference
+    - node
+id: node.field_test_jar_field
+field_name: field_test_jar_field
+entity_type: node
+type: typed_resource_object
+settings:
+  resource_object_type: node--test_jar
+  title_attribute: title
+module: jsonapi_reference
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
