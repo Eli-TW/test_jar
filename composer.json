@@ -1,5 +1,5 @@
 {
-    "name": "drupal_recipe/test_jar",
+    "name": "drupal/test_jar",
     "description": "Recipe for setting up JSON:API Reference for testing",
     "type": "drupal-recipe",
     "require": {
