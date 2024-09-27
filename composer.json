@@ -5,7 +5,8 @@
     "require": {
         "drupal/core": "^10.3 || ^11.0",
         "drupal/jsonapi_reference": "^2.0",
-        "drupal/devel": "^5"
+        "drupal/devel": "^5",
+        "drush/drush": "^12 || ^13"
     },
     "license": "GPL-2.0-or-later"
 }
